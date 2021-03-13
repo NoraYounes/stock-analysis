@@ -10,13 +10,15 @@ The purpose of this project is to refactor the code to loop through all the gree
 ### Code Refactoring
 
 #### Original Code
-
 The original code used a nested for loop to loop through all the tickers and generate the total volume and yearly return as shown in the image below. 
+
+
 ![VBA_Challenge_Original_Code](https://user-images.githubusercontent.com/78664640/111036535-a691e880-83ed-11eb-8cd0-536f9fe8c23e.png)
 
 #### Refactored Code
-
 The refactored code replaced the nested for loop with a for loop through all the tickers and generate the total volume and yearly return as shown in the image below.
+
+
 ![VBA_Challenge_Refactored_Code](https://user-images.githubusercontent.com/78664640/111036553-b6113180-83ed-11eb-91f0-f79ec961d6ac.png)
 
 ### Script Execution Times
@@ -32,7 +34,6 @@ The images below show that the original script ran the code in about 0.50 second
 ![VBA_Challenge_2018_Original](https://user-images.githubusercontent.com/78664640/111036776-f624e400-83ee-11eb-96d0-3f184d5e8bc0.png)
 
 ### Stock Performance
-
 In 2017, all the stocks except TERP had a positive rate of return with DQ having the highest rate of return at 199.4%. 
 
 ![VBA_Challenge_2017_Stock_Performance](https://user-images.githubusercontent.com/78664640/111036854-66336a00-83ef-11eb-8f95-1b388bb79d9f.png)
