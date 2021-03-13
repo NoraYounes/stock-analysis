@@ -1,28 +1,25 @@
 # Stock Analysis 
-
-##Overview of Project
-
+## Overview of Project
 Our clients, Steve's parents have invested all their money in DAQO New Energy Corp (DQ), a company that manufactures silicone wafers for solar panels. Steve wanted to help his parents diversify their investments through analyzing green energy stocks including DQ's stocks. The first stage of the research focused on developing a code to analyze a dozen green energy stocks for 2017 and 2018. Steve would like to expand his research to include the entire stock market over the last few years, however the code will need to be refactored to run efficiently on larger datasets. 
 
-###Purpose
-
+### Purpose
 The purpose of this project is to refactor the code to loop through all the green energy stocks data more efficiently. 
 
-##Results
+## Results
 
-###Code Refactoring
+### Code Refactoring
 
-####Original Code
+#### Original Code
 
 The original code used a nested for loop to loop through all the tickers and generate the total volume and yearly return as shown in the image below. 
 ![VBA_Challenge_Original_Code](https://user-images.githubusercontent.com/78664640/111036535-a691e880-83ed-11eb-8cd0-536f9fe8c23e.png)
 
-####Refactored Code
+#### Refactored Code
 
 The refactored code replaced the nested for loop with a for loop through all the tickers and generate the total volume and yearly return as shown in the image below.
 ![VBA_Challenge_Refactored_Code](https://user-images.githubusercontent.com/78664640/111036553-b6113180-83ed-11eb-91f0-f79ec961d6ac.png)
 
-###Script Execution Times
+### Script Execution Times
 
 The images below show that the original script ran the code in about 0.50 seconds for both 2017 and 2018, while the refactored script ran the code in about 0.12 seconds for both 2017 and 2018. This clearly demonstrates that the refactored code has a faster execution time than the original code.
 
@@ -34,7 +31,7 @@ The images below show that the original script ran the code in about 0.50 second
 
 ![VBA_Challenge_2018_Original](https://user-images.githubusercontent.com/78664640/111036776-f624e400-83ee-11eb-96d0-3f184d5e8bc0.png)
 
-###Stock Performance
+### Stock Performance
 
 In 2017, all the stocks except TERP had a positive rate of return with DQ having the highest rate of return at 199.4%. 
 
@@ -44,17 +41,17 @@ In 2018, all the stocks except ENPH and RUN had a negative rate of return, with 
 
 ![VBA_Challenge_2018_Stock_Performance](https://user-images.githubusercontent.com/78664640/111036860-6e8ba500-83ef-11eb-91cb-543b627a63b7.png)
 
-##Summary 
+## Summary 
 
-###Advantages
+### Advantages
 
 Refactoring code can help improve the code design by identifying code smells and decrease the execution time of the code. For the stock analysis, the refactored code increased efficiency of the code by using a for loop instead of a nested for loop which ran the for loop once instead of once for the outer for loop then again for the inner for loop.
 
-###Disadvantages
+### Disadvantages
 
 A few of the disadvantages of refactoring is that it can be time-consuming to optimize code and it could generate more lines of code to manage as it requires breaking code into smaller and more abstract code to enhance its application (Heusser, 2020). For the stock analysis, refactoring the code required additional time to optimize the code, which was possible for this analysis project, but it may not alway be possible for tighter project deadlines.  
 
-##References
+## References
 
 Heusser, M. (2020, May 26). Refactor vs. rewrite: Deciding what to do with problem software. Retrieved from https://searchapparchitecture.techtarget.com/tip/Refactor-vs-rewrite-Deciding-what-to-do-with-problem-software. 
 
